@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,30);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,30);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,30');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_top_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #F2F2F2;
+    gap: 40px;
+}
+
+.header_top_block h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: #0088a2
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    flex: 0 1 20%;
+}
+
+.menu__item {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #7d7d7d;
+    transition: .3s;
+}
+
+.menu__item:hover {
+    background-color: #0088A2;
+}
+
+main {
+    background-color: #F2F2F2;
+}
+
+.question {
+    max-width: 90%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.question_card {
+    flex: 0 1 30%;
+    position: relative;
+    transition: .3s;
+}
+
+.question_card:hover {
+    transform: scale(1.08);
+}
+
+.question_card img {
+    width: 100%;
+}
+
+.question_card p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 70%;
+}
+
+.about_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.gui {
+    font-family: "Open Sans", sans-serif;
+    color: #0088A2;
+    font-size: 45px;
+}
+
+.cart {
+    position: relative;
+    margin: 30px 0;
+
+}
+
+.raw {
+    width: 100%;
+}
+
+.zn {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo5 {
+    display: flex;
+    margin: 80px 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center
+}
+
+.photo5 img {
+    width: 15%;
+}
+
+.project {
+    font-family: "Open Sans", sans-serif;
+    color: #0088A2;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text_project {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text_in_project {
+    color: #7d7d7d;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    margin: 5%;
+}
+
+.dowload p {
+    font-size: 36px;
+    color: #7d7d7d;
+    text-align: center;
+    width: 85%;
+    line-height: 36px;
+    margin: auto;
+}
+
+.dowload {
+    margin: 10px 0;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.dowload .images {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.dowload h4 {
+    color: #0088A2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #0088a2;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer h2 {
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+footer .social_medias {
+    margin: 50px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+footer .footer_nav h4 {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 40px 0;
+}
+
+footer .footer_nav p {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+footer .block_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer_nav a {
+    color: white;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding-top: 30px;
+}
+
+#toggle {
+    /* прозрачность */
+    opacity: 0;
+}
+
+
+/* Стилизация кнопки */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+    z-index: 10;
+    user-select: none;
+    padding: 3px;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+.btn span,
+.btn span::before,
+.btn span::after {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #0088a2;
+    transition: .3s;
+}
+
+
+.btn span::before {
+    content: '';
+    top: -8px;
+}
+
+
+.btn span::after {
+    content: '';
+    top: 8px;
+}
+
+
+.burger_menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    visibility: hidden;
+    width: 300px;
+    height: 100%;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #707070;
+    z-index: 9;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: .5s ease-in-out;
+}
+
+.burger_menu .menu__itim {
+    display: block;
+    padding: 15px 20px;
+    color: #0088a2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+#toggle:checked~.btn span {
+    transform: rotate(45deg);
+}
+
+#toggle:checked~.btn span::before {
+    top: 0;
+    transform: rotate(-90deg);
+}
+
+
+#toggle:checked~.btn span::after {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+#toggle:checked~.burger_menu {
+    left: 0;
+    visibility: visible;
+}
+
+@media screen and (max-width: 1024px) {
+    .burger_block {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .burger_block {
+        display: none;
+    }
+}

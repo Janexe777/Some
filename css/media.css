@@ -1,0 +1,114 @@
+@media screen and (max-width; 1440px) {}
+
+/* старые мониторы (маленькие) */
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 970px;
+        background-color: black;
+    }
+}
+
+/* Планшеты  */
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 767px;
+        background-color: blue;
+    }
+
+    .card {
+        flex: 0 1 100%;
+    }
+}
+
+/* Мобильные тел -mabilel */
+@media screen and (max-width:767px) {
+    .container {
+        max-width: none;
+        background-color: cadetblue;
+    }
+}
+
+
+/* Мобильные тел -mabilem */
+@media screen and (max-width:500px) {}
+
+
+
+/* Мобильные тел -mabiles */
+@media screen and (max-width:430px) {
+
+    .header_top_block {
+        flex-wrap: wrap;
+    }
+
+    .header_top_block img {
+        width: 98px;
+        height: 97px;
+    }
+
+    .header_top_block h1 {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+
+    .question_card {
+        flex: 0 1 100%;
+    }
+
+    .photo12345 {
+        display: none;
+    }
+
+    .gui {
+        font-size: 44px;
+        font-weight: 400;
+    }
+
+    .raw {
+        border-radius: 5%;
+        height: 196px;
+    }
+
+    .zn {
+        width: 60px;
+    }
+
+    .text_in_project {
+        font-size: 15px;
+    }
+
+    .block_1 p {
+        font-size: 10px;
+    }
+
+    .dowload p {
+        font-size: 18px;
+    }
+
+    .logo_text {
+        font-size: 40px;
+    }
+
+    .social_medias {
+        text-align: center;
+        gap: 20px;
+        width: 85px;
+    }
+
+
+    .social_medias img {
+
+        width: 60px;
+    }
+
+    .footer_nav {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+}
